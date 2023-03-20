@@ -1,0 +1,2 @@
+patikaDev ile Java102
+FileInputStream örneði

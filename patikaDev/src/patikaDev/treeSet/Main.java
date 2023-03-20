@@ -1,6 +1,5 @@
 package patikaDev.treeSet;
 
-import java.util.ArrayList;
 import java.util.TreeSet;
 
 public class Main {

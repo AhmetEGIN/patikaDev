@@ -2,7 +2,7 @@ package patikaDev.sigortaYonetim.entities;
 
 import java.util.Date;
 
-import patikaDev.sigortaYonetim.entities.enums.LoginStatus;
+//import patikaDev.sigortaYonetim.entities.enums.LoginStatus;
 
 public class User {
 
@@ -10,7 +10,7 @@ public class User {
 	private String email;
 	private String password;
 	private Date lastLoginDate;
-	private LoginStatus loginStatus = LoginStatus.FAÝL;
+//	private LoginStatus loginStatus = LoginStatus.FAÝL;
 
 	public User() {
 		super();
@@ -48,13 +48,13 @@ public class User {
 		this.lastLoginDate = lastLoginDate;
 	}
 	
-	public LoginStatus getLoginStatus() {
-		return loginStatus;
-	}
-
-	public void setLoginStatus(LoginStatus loginStatus) {
-		this.loginStatus = loginStatus;
-	}
+//	public LoginStatus getLoginStatus() {
+//		return loginStatus;
+//	}
+//
+//	public void setLoginStatus(LoginStatus loginStatus) {
+//		this.loginStatus = loginStatus;
+//	}
 
 
 	public User(int id, String email, String password, Date lastLoginDate) {
